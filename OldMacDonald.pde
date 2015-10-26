@@ -1,7 +1,4 @@
-public void setup() {     
-    Cow c = new Cow("cow", "moo");   
-    Chick k = new Chick("chick", "cheep", "cluck");
-    Pig p = new Pig("pig", "oink");
+public void setup() {    
     Farm f = new Farm();
     f.animalSounds(); 
 }
